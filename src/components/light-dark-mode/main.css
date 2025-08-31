@@ -1,0 +1,23 @@
+.main-wrap {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background-color: light-dark(#fff, #010101);
+  color: light-dark(#000, #fff);
+  transition: color-scheme 0.7s ease-in-out 0s;
+}
+
+.dark-theme {
+  color-scheme: dark;
+}
+
+button {
+  background-color: light-dark(#000, #fff);
+  color: light-dark(#fff, #000);
+}
+
+h3 {
+  width: 100%;
+}
